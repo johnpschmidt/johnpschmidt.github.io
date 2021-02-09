@@ -14,9 +14,13 @@
     <link rel="manifest" href="site.webmanifest" />
     <link rel="icon" href="transparlogo.png" />
     <!-- Place favicon.ico in the root directory -->
-
     <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/main.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css"
+    />
+
     <link
       rel="stylesheet"
       href="css/style.css"
@@ -32,64 +36,54 @@
       href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,400;0,600;0,700;0,900;1,600;1,900&display=swap"
       rel="stylesheet"
     />
-    <script src="https://kit.fontawesome.com/e2d1722b73.js" crossorigin="anonymous"></script>
-
+    <script
+      src="https://kit.fontawesome.com/e2d1722b73.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
-    <div class="heroContainer">
-      <div class="leftSide">
-        <img id="heroLogo" src="transparlogo.png" />
-      </div>
-
-      <div class="rightSide">
-        <div id="textContainerHero">
-        <h1>
-          John Schmidt
-        </h1>
-        <div class="actionBar">
-          <p>I have worked professionally as a web developer and writer part time alongside my work in public housing. I've been writing code since highschool. Strive to always learn, to stay humble and to leave the world better than when I entered. Platitudes aside, I'd love to move into a full-time web developer role one day. </p>
-          <a href="https://www.twitter.com/johnatello1"><i class="fab fa-twitter-square"></i></a>
-          <a href="https://www.github.com/johnpschmidt"><i class="fab fa-github"></i></a>
-         <a href="mailto:schmidt.john09@gmail.com"> <i class="fas fa-envelope-square"></i></a>
+    <section class="hero is-fullheight" id="heroSection">
+      <div class="container level is-fluid">
+        <div class="columns is-desktop is-align-items-center">
+          <div
+            class="column is-two-thirds is-justify-content-center"
+            id="logoColumn"
+          >
+            <figure class="image is-align-items-center">
+              <img id="logo" src="logo.png" />
+            </figure>
+          </div>
+          <div class="column is-one-third-desktop" id="heroText">
+            <p>
+              I have worked professionally as a web developer and writer part
+              time alongside my work in public housing. I've been writing code
+              since highschool. Strive to always learn, to stay humble and to
+              leave the world better than when I entered. Platitudes aside, I'd
+              love to move into a full-time web developer role one day.
+            </p>
+            <hr />
+            <div id="actionBar" class="level is-justify-content-center">
+              <span class="icon"
+                ><a href="https://www.twitter.com/johnatello1"
+                  ><i class="fab fa-2x fa-twitter-square"></i
+                ></a>
+              </span>
+              <span class="icon">
+                <a href="https://www.github.com/johnpschmidt"
+                  ><i class="fab fa-2x fa-github"></i></a
+              ></span>
+              <span class="icon"
+                ><a href="mailto:schmidt.john09@gmail.com">
+                  <i class="fas fa-2x fa-envelope-square icon"></i></a
+              ></span>
+            </div>
+          </div>
         </div>
-        </div>
-        <a href="#projects"><button id="learnMore"> See my Work</button></a>
       </div>
-     
-    </div>
-    <div id="projectContainer">
-    <div id="workSection">
-      <h2 id="projectHeader">Projects</h2>
-      <div id="projectCopy">
-        <p>The below websites have all been created with wordpress and hosted via Siteground. I am currently in the process of building two online stores as well as a personal project using the Destiny 2 API. </p>
-      </div>
-      
-      <div id="projects">
-        <div class="projectCard">
-          <h2 id="projectTitle">Mentor North</h2>
-          <a href="http://mentornorth.org/"><img class ="projectImage" src="mentorNorth.png"/></a>
-        </div>
-        <div class="projectCard">
-          <h2 id="projectTitle">Hacker Construction</h2>
-          <a href="https://www.hackerconstruct.com/"><img class="projectImage" src="hackerconstruction.jpg"></a>
-      </div>
-      <div class="projectCard">
-        <h2 id="projectTitle">Summerfest 5K</h2>
-        <a href="http://hermantownsummerfest5k.com/"><img src="stealth.png" alt="" class="projectImage"></a>
-      </div>
-
-  </div>
-
-      </div>
-    </div>
-    <div id="contactSection">
-
-    </div>
-  </body>
+    </section>
     <script src="js/vendor/modernizr-3.11.2.min.js"></script>
     <script src="js/plugins.js"></script>
     <script src="js/main.js"></script>
-
     <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
     <script>
       window.ga = function () {
@@ -105,3 +99,54 @@
     <script src="https://www.google-analytics.com/analytics.js" async></script>
   </body>
 </html>
+
+<!-- <div class="heroContainer">
+  <div class="leftSide">
+    <img id="heroLogo" src="transparlogo.png" />
+  </div>
+
+  <div class="rightSide">
+    <div id="textContainerHero">
+    <h1>
+      John Schmidt
+    </h1>
+    <div class="actionBar">
+      <p>I have worked professionally as a web developer and writer part time alongside my work in public housing. I've been writing code since highschool. Strive to always learn, to stay humble and to leave the world better than when I entered. Platitudes aside, I'd love to move into a full-time web developer role one day. </p>
+      <a href="https://www.twitter.com/johnatello1"><i class="fab fa-twitter-square"></i></a>
+      <a href="https://www.github.com/johnpschmidt"><i class="fab fa-github"></i></a>
+     <a href="mailto:schmidt.john09@gmail.com"> <i class="fas fa-envelope-square"></i></a>
+    </div>
+    </div>
+    <a href="#projects"><button id="learnMore"> See my Work</button></a>
+  </div>
+ 
+</div>
+<div id="projectContainer">
+<div id="workSection">
+  <h2 id="projectHeader">Projects</h2>
+  <div id="projectCopy">
+    <p>The below websites have all been created with wordpress and hosted via Siteground. I am currently in the process of building two online stores as well as a personal project using the Destiny 2 API. </p>
+  </div>
+  
+  <div id="projects">
+    <div class="projectCard">
+      <h2 id="projectTitle">Mentor North</h2>
+      <a href="http://mentornorth.org/"><img class ="projectImage" src="mentorNorth.png"/></a>
+    </div>
+    <div class="projectCard">
+      <h2 id="projectTitle">Hacker Construction</h2>
+      <a href="https://www.hackerconstruct.com/"><img class="projectImage" src="hackerconstruction.jpg"></a>
+  </div>
+  <div class="projectCard">
+    <h2 id="projectTitle">Summerfest 5K</h2>
+    <a href="http://hermantownsummerfest5k.com/"><img src="stealth.png" alt="" class="projectImage"></a>
+  </div>
+
+</div>
+
+  </div>
+</div>
+<div id="contactSection">
+
+</div>
+</body> -->

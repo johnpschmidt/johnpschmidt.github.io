@@ -1,138 +1,32 @@
-body {
-  display: flex;
-  flex-direction: column;
-  overflow-x: hidden;
-  object-fit: fill;
-  align-items: center;
-}
-.rightSide {
-  width: 50vw;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  font-family: "Cinzel", sans-serif;
-  font-size: 2rem;
-  align-items: center;
-  margin-right: 15px;
-}
-.rightSide p {
-  color: #321f20;
-}
-
-.leftSide {
-  display: flex;
-  flex-direction: column;
-  align-items: CENTER;
-  width: 50vw;
-}
-.heroContainer {
-  background-image: url("/backgroundImage.jpg");
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  overflow-x: hidden;
-  overflow-y: hidden;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-#heroLogo {
-}
-
-.aboutContainer {
-  width: 100vw;
-  height: 100vh;
-}
-@media only screen and (max-width: 425px) and (min-width: 200px) {
-  .heroContainer {
-    display: flex;
-    flex-direction: column;
-  }
-}
-
-#textContainerHero {
-  display: flex;
-  flex-direction: column;
-  align-content: space-around;
-  text-align: center;
-}
-#textContainerHero h1 {
-  font-size: 400;
-  margin: 0;
-  padding: 0;
-}
-#textContainerHero p {
-  font-size: 15px;
+#heroSection h1 {
+  font-family: "Cinzel";
+  font-size: 5rem;
   font-weight: bold;
-  font-style: italic;
-}
-#learnMore {
-  font-size: 20px;
-  background-color: #fedd00;
-  border-color: none;
-  border: 1px solid;
-  border-radius: 25px;
-  color: ;
-}
-#workSection {
-  height: auto;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  width: 70%;
-  overflow: none;
-  font-family: "Source Sans Pro";
-}
-#projects {
-  display: flex;
-  flex-wrap: wrap;
-  width: 100%;
-  height: 100%;
-  justify-content: center;
 }
 
-#projectCopy {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  text-align: center;
-  padding: 0;
-  margin: 0;
+#heroSection {
+  background-image: url("/backgroundImage.jpg");\
 }
 
-.projectCard {
-  margin: 10px;
-  width: 45%;
+.image {
+}
+#heroText {
   text-align: center;
 }
-
-#projectTitle {
-  font-weight: bolder;
-  font-family: "Cinzel", sans-serif;
-}
-.projectImage {
-  max-width: 90%;
-  margin: 10px;
-}
-#projectContainer {
-  width: 100%;
-  background-color: #fedd00;
-  display: flex;
-  justify-content: center;
-  height: auto;
-}
-
-#projectHeader {
-  margin: 0;
-  padding: 0;
-}
-#learnMore a {
-  text-decoration: none;
-  width: 100%;
-}
-.actionBar a {
+a {
   text-decoration: none;
   color: black;
+}
+
+#actionBar span {
+  padding: 20px;
+}
+
+.hero {
+}
+
+#logo {
+  width: 50%;
+}
+.column {
 }
