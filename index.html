@@ -42,18 +42,18 @@
     ></script>
   </head>
   <body>
-    <section class="hero is-fullheight" id="heroSection">
-      <div class="container level is-fluid">
+    <section class="hero is-fullheight is-fluid" id="heroSection">
+      <div class="container level is-fluid is-flex">
         <div class="columns is-desktop is-align-items-center">
           <div
-            class="column is-two-thirds is-justify-content-center"
+            class="column is-two-thirds is-justify-content-center level-left"
             id="logoColumn"
           >
             <figure class="image is-align-items-center">
               <img id="logo" src="logo.png" />
             </figure>
           </div>
-          <div class="column is-one-third-desktop" id="heroText">
+          <div class="column is-one-third-desktop level-right is-flex is-flex-direction-column is-justify-content-space-around" id="heroText">
             <p>
               I have worked professionally as a web developer and writer part
               time alongside my work in public housing. I've been writing code
@@ -80,6 +80,95 @@
           </div>
         </div>
       </div>
+    </section>
+    <section class="section is-large" id="expSection">
+      <div class="tile is-ancestor">
+        <div class="tile is-4 is-vertical is-parent">
+          <div class="tile is-child box">
+            <p class="title">Education</p>
+            <p>
+              <ul>  
+                <li>Texas Tech | 2014-2016 <br>Masters of Educaton in Higher Education Administration </li>
+                <br>
+                <li>South Dakota State | 2009-2014 <br>Bachelors of Science, Journalism, had mix of computer science classes as well</li>
+              </ul>
+            </p>
+          </div>
+          <div class="tile is-child box">
+            <p class="title">Work History</p>
+            <p>
+              <ul>  
+                <li>Duluth Housing Authority | Sept. 2020-Current <br> Housing Tech</li>
+                <br>
+                <li>Surge Communications | Sept. 2019-Current <br>Web Developer(part time)</li>
+                <br>
+                <li>University of Minnesota Duluth| July 2016- Sept 2020 <br> Residence Director</li>
+                <br>
+              </ul>          
+
+</p>
+          </div>
+        </div>
+        <div class="tile is-parent">
+          <div class="tile is-child box is-flex is-flex-direction-column is-align-items-center is-align-content-center">
+            <div id="techSkills"> <p class="title">Tech Skills</p>
+            <div
+              class="container is-flex is-justify-content-space-between is-flex-wrap-wrap"
+            >
+              <div class="skillBox is-flex is-flex-direction-column">
+                <i class="fab fa-html5 skillicon"></i>
+                <p class="techHeader">HTML</p>
+              </div>
+              <div class="skillBox is-flex is-flex-direction-column">
+                <i class="fab fa-css3 skillicon"></i>
+                <p class="techHeader">CSS</p>
+              </div>
+              <div class="skillBox is-flex is-flex-direction-column">
+                <i class="fab fa-js skillicon"></i>
+                <p class="techHeader">Javascript</p>
+              </div>
+              <div class="skillBox is-flex is-flex-direction-column">
+                <i class="fab fa-wordpress skillicon"></i>
+                <p class="techHeader">Wordpress</p>
+              </div>
+              <div class="skillBox is-flex is-flex-direction-column">
+                <i class="fab fa-php skillicon"></i>
+                <p class="techHeader">PHP & MYSQL</p>
+              </div>
+              <div class="skillBox is-flex is-flex-direction-column">
+                <i class="fab fa-react skillicon"></i>
+                <p class="techHeader">React</p>
+              </div>
+            </div>
+          
+          
+          </div>
+          <div
+            class="container is-flex is-justify-content-center is-align-items-center is-flex-wrap-wrap is-flex-direction-column "
+          id="projectRow">
+          <p class="title">Projects</p>
+          <p class="subtitle" id="projectCopy">Here are some projects I have worked on for Surge Communications. I currently have one freelance client and have a hand-full of other side projects that will be posted here soon. I love to explore APIs and learn new technologies for personal projects. These websites were built using WordPress. There are more I have worked on/manage but these are the most recent ones.  </p>
+          <div id="projectList">
+            <ul>
+              <li><a href="www.mentornorth.org">Mentor North</a></li>
+              <li><a href="www.hackerconstruct.com">Hacker Construction</a></li>
+              <li><a href="http://hermantownsummerfest5k.com/">Hermantown Summerfest 5k</a></li>
+            </ul>
+          </div>
+      </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section is-small " id="thankYou">
+        <div class="container tile is-fluid is-flex is-flex-direction-column is-align-items-center">
+          <p class="title">Thank You</p>
+          <div id="thankYouSection">
+            Thank you so much for visiting my website. If you have any questions or would like to utilize my services, please feel free to reach me via email at schmidt.john09@gmail.com. 
+          </div>
+        </div>
+      
+
     </section>
     <script src="js/vendor/modernizr-3.11.2.min.js"></script>
     <script src="js/plugins.js"></script>
