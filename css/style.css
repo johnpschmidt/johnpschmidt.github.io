@@ -74,6 +74,10 @@ a {
 
 
  @media only screen and (max-width: 768px) {
+
+   #heroText {
+    width: 100%;
+   }
 #logo{
   width: 100%;
 }
@@ -91,7 +95,18 @@ a {
 .skillicon{
   font-size: 5rem;
 }
+#heroText p{
+  width: 50vw
+}
+#heroSection, .container{
+  margin:0;
+  padding:10px;
+}
  }
+
+
+
+
 
  #projectCopy{
    font-size: 12px;
