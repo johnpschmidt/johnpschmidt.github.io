@@ -3,11 +3,9 @@
   font-size: 5rem;
   font-weight: bold;
 }
-
-#heroSection {
-  background-image: url("/backgroundImage.jpg");\
+body {
+  background-color: #fedd00;
 }
-
 
 #heroText {
   text-align: center;
@@ -25,102 +23,101 @@ a {
 }
 
 #logo {
-  width: 50%;
+  padding-right: 100px;
 }
 .column {
 }
 
-#expSection{
+#expSection {
   padding-top: 10px;
-  padding-bottom: 0;  
+  padding-bottom: 0;
 }
-.skillicon{
-  font-size: 10rem;
+.skillicon {
+  font-size: 5rem;
   text-align: center;
 }
 .skillBox p {
-  text-align:center;
-}
-
-.skillBox{
-  width: 33%;
-}
-.is-child{
-  background-color:#fedd00
-}
-.title{
-  font-family: 'Cinzel', serif;
-}
-.title p{
-  font-family: 'Source Sans Pro', sans-serif;
-
-}
-.techHeader{
-  font-family: 'Source Sans Pro', sans-serif;
-  font-size: 12pt;
-
-}
-#thankYou{
-  padding-top:25px;
-
- }
- #thankYou .tile{
-   background-color:#969696;
-   padding: 10px;
- }
-
-
-
-
-
- @media only screen and (max-width: 768px) {
-
-   #heroText {
-    width: 100%;
-   }
-#logo{
-  width: 100%;
-}
-#heroSection{
   text-align: center;
-  padding: 100px;
-  color: white;
-  font-weight: bold;
-  font-style: italic;
-
 }
-.icon i{
-  color: white;
+
+.skillBox {
+  width: 25%;
 }
-.skillicon{
-  font-size: 5rem;
+.is-child {
 }
-#heroText p{
-  width: 50vw
+.title {
+  font-family: "Cinzel", serif;
 }
-#heroSection, .container{
-  margin:0;
-  padding:10px;
+.title p {
+  font-family: "Source Sans Pro", sans-serif;
 }
- }
+.techHeader {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 12pt;
+}
+#thankYou {
+  padding-top: 25px;
+}
+#thankYou .tile {
+  padding: 10px;
+}
 
+@media only screen and (max-width: 768px) {
+  #heroText {
+    width: 100%;
+  }
+  #logo {
+    width: 100%;
+  }
+  #heroSection {
+    text-align: center;
+    padding: 100px;
+    color: white;
+    font-weight: bold;
+    font-style: italic;
+  }
+  .icon i {
+    color: white;
+  }
+  .skillicon {
+    font-size: 5rem;
+  }
+  #heroText p {
+    width: 50vw;
+  }
+  #heroSection,
+  .container {
+    margin: 0;
+    padding: 10px;
+  }
+}
 
+#projectCopy {
+  font-size: 12px;
+  width: 60%;
+}
+#techSkills {
+  text-align: center;
+}
+#projectList {
+  text-align: center;
+}
+#projectRow {
+  padding-top: 25px;
+}
+#thankYouSection {
+  width: 50%;
+}
 
-
-
- #projectCopy{
-   font-size: 12px;
-   width: 60%;
- }
- #techSkills{
-   text-align: center;
- }
- #projectList{
-   text-align: center;
- }
- #projectRow{
-   padding-top: 25px;
- }
- #thankYouSection{
-   width: 50%;
- }
+.job li {
+  padding-left: 10px;
+  font-size: 0.8rem;
+}
+#jobTitle {
+  margin: 0;
+  padding: 0;
+  font-size: 1rem;
+}
+.date {
+  font-size: 0.5rem;
+}

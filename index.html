@@ -46,20 +46,22 @@
       <div class="container is-fluid is-flex">
         <div class="columns is-desktop is-align-items-center">
           <div
-            class="column is-two-thirds is-justify-content-center level-left"
+            class="column is-o is-justify-content-center level-left"
             id="logoColumn"
           >
-            <figure class="image is-align-items-center">
-              <img id="logo" src="logo.png" />
+            <figure class="image">
+              <img id="logo" src="logo1.png" />
             </figure>
           </div>
-          <div class="column is-one-third-desktop level-right is-flex is-flex-direction-column is-justify-content-space-around" id="heroText">
+          <div
+            class="column is-one-third-desktop level-right is-flex is-flex-direction-column is-justify-content-space-around"
+            id="heroText"
+          >
             <p>
               I have worked professionally as a web developer and writer part
               time alongside my work in public housing. I've been writing code
               since highschool. Strive to always learn, to stay humble and to
-              leave the world better than when I entered. Platitudes aside, I'd
-              love to move into a full-time web developer role one day.
+              leave the world better than when I entered. When I'm not working, either I'm tinkering with an API, playing Magic the Gathering, or spending time with my wife and our dog. 
             </p>
             <hr />
             <div id="actionBar" class="level is-justify-content-center">
@@ -85,30 +87,8 @@
       <div class="tile is-ancestor">
         <div class="tile is-4 is-vertical is-parent">
           <div class="tile is-child box">
-            <p class="title">Education</p>
-            <p>
-              <ul>  
-                <li>Texas Tech | 2014-2016 <br>Masters of Educaton in Higher Education Administration </li>
-                <br>
-                <li>South Dakota State | 2009-2014 <br>Bachelors of Science, Journalism, had mix of computer science classes as well</li>
-              </ul>
-            </p>
-          </div>
-          <div class="tile is-child box">
-            <p class="title">Work History</p>
-              <ul>  
-                <li>Duluth Housing Authority | Sept. 2020-Current <br> Housing Tech</li>
-                <br>
-                <li>Surge Communications | Sept. 2019-Current <br>Web Developer(part time)</li>
-                <br>
-                <li>University of Minnesota Duluth| July 2016- Sept 2020 <br> Residence Director</li>
-                <br>
-              </ul>          
-          </div>
-        </div>
-        <div class="tile is-parent">
-          <div class="tile is-child box is-flex is-flex-direction-column is-align-items-center is-align-content-center">
-            <div id="techSkills"> <p class="title">Tech Skills</p>
+            <p class="title is-center">Tech Skills</p>
+
             <div
               class="container is-flex is-justify-content-space-between is-flex-wrap-wrap"
             >
@@ -137,49 +117,113 @@
                 <p class="techHeader">React</p>
               </div>
             </div>
-          
-          
           </div>
-          <div
-            class="container is-flex is-justify-content-center is-align-items-center is-flex-wrap-wrap is-flex-direction-column "
-          id="projectRow">
-          <p class="title">Projects</p>
-          <p class="subtitle" id="projectCopy">Here are some projects I have worked on for Surge Communications. I currently have one freelance client and have a hand-full of other side projects that will be posted here soon. I love to explore APIs and learn new technologies for personal projects. These websites were built using WordPress. There are more I have worked on/manage but these are the most recent ones.  </p>
-          <div id="projectList">
-            <ul>
-              <li><a href="www.mentornorth.org">Mentor North</a></li>
-              <li><a href="www.hackerconstruct.com">Hacker Construction</a></li>
-              <li><a href="http://hermantownsummerfest5k.com/">Hermantown Summerfest 5k</a></li>
-            </ul>
-          </div>
-      </div>
+        </div>
+        <div class="tile is-parent">
+          <div class="tile is-child box is-flex is-flex-direction-column">
+            <div id="education">
+              <p class="title">Education</p>
+              <div
+                class="columns is-flex is-justify-content-center is-align-items-center"
+              >
+                <div class="column">
+                  <p class="subtitle is-center">
+                    Texas Tech University | 2014-2016 <br />Masters in
+                    Education, Higher Education Administration
+                  </p>
+                </div>
+                <div class="column">
+                  <p class="subtitle is-center">
+                    South Dakota State University | 2009-2014 <br />Bachelors of
+                    Science in Journalism & English
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div id="workHistory">
+              <p class="title">Work History</p>
+              <div class="is-flex is-justify-content-space-between">
+                <div class="job">
+                  Duluth HRA<span class="date"> Sept. 2020-Current</span>
+                  <br />
+                  <p id="jobTitle">Housing Tech</p>
+                  <ul>
+                    <li>
+                      Manage administrative processes related to public housing
+                    </li>
+                    <li>Process incoming public housing applications</li>
+                  </ul>
+                </div>
+                <div class="job">
+                  Surge Communications<span class="date">
+                    Sept.2019-Current</span
+                  >
+                  <br />
+                  <p id="jobTitle">Web Developer</p>
+                  <ul>
+                    <li>
+                      Assess, secure, design, develop and manage client websites
+                      using a wide array of services.
+                    </li>
+                    <li>Provide In-House IT support.</li>
+                  </ul>
+                </div>
+                <div class="job">
+                  John Schmidt <span class="date"> Sept. 2020-Current</span>
+                  <br />
+                  <p id="jobTitle">Freelance Work</p>
+                  <ul>
+                    <li>
+                      Provide web solutions to clients. Currently working with
+                      Northland Grooming and Boarding
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div id="projects">
+              <p class="title">Projects</p>
+              <p>Here are some projects I have built and work to manage. Feel free to check them out. I have a handful of personal projects I am working on, as well as a non-wordpress site for a client. </p></o>
+              <div class="columns">
+                <div class="column"><a href="https://www.mentornorth.org">Mentor North</a></div>
+                <div class="column"><a href="https://www.hackerconstruct.com/">Hacker Construction</a></div>
+                <div class="column"><a href="http://hermantownsummerfest5k.com/">Hermantown Summerfest 5k</a></div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </section>
-    <section class="section is-small " id="thankYou">
-        <div class="container tile is-fluid is-flex is-flex-direction-column is-align-items-center">
-          <p class="title">Thank You</p>
-          <div id="thankYouSection">
-            Thank you so much for visiting my website. If you have any questions or would like to utilize my services, please feel free to reach me via email at schmidt.john09@gmail.com. 
-          </div>
+    <section class="section is-small" id="thankYou">
+      <div
+        class="container tile is-fluid is-flex is-flex-direction-column is-align-items-center"
+      >
+        <p class="title">Thank You</p>
+        <div id="thankYouSection">
+          Thank you so much for visiting my website. If you have any questions
+          or would like to utilize my services, please feel free to reach me via
+          email at schmidt.john09@gmail.com.
         </div>
-      
-
+      </div>
     </section>
     <script src="js/vendor/modernizr-3.11.2.min.js"></script>
     <script src="js/plugins.js"></script>
     <script src="js/main.js"></script>
     <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
     <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-113806000-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-113806000-1"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-  gtag('config', 'UA-113806000-1');
-</script>
+      gtag("config", "UA-113806000-1");
+    </script>
 
     <script src="https://www.google-analytics.com/analytics.js" async></script>
   </body>
